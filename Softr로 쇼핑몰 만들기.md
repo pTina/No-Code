@@ -55,6 +55,53 @@ DB수정할 때마다 실시간 적용되긴 함
     - Allow multiselect(중복선택 여부): 체크 | 체크하지 않음
 
 #
+
+## 3. Add Block
+추가할 수 있는 블럭 종류
+1. static
+- header
+- Hero
+- Feature
+- Feature Grid
+- CTA
+- Partner
+- Gallery
+- pricing
+- Team
+- Testimonial
+- FAQ
+- Custom Code (유료)
+- Other
+    - Simple text 블럭을 추가하여 styles의 padding값을 최대로 지정하여 배경이미지를 넣는것이 Simple imgae or Simple image full width 보다 괜찮은 것 같다.
+
+2. dynamic
+
+    제품상세 등과 같은 데이터와 연동되어 동적으로 값이 바뀌어야 하는 레이아웃
+    - Form
+    - User Accounts
+    - Payment
+    - List
+    - List Details
+    
+        제품상세페이지 만들 때 사용할 수 있음
+        종류가 다양하지 않아서 아쉬움
+        사실 맘에 드는게 별로 없었음(선택지 4개 - 무료)
+    - Table
+    - Calendar
+    - Kanban
+    - Chart
+    - Organiztional Chart
+    - Comments
+    - Map   
+
+#
+
+
+### 작업목록
+2022-11-18: 제품 상세보기 페이지 만들기(item-detail)
+
+#
+
 ### 이슈
 
 2022-11-12~ 이미지, 텍스트가 제대로 보이지 않음
