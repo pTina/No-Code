@@ -93,13 +93,47 @@ DB수정할 때마다 실시간 적용되긴 함
     - Organiztional Chart
     - Comments
     - Map   
-
 #
 
+## 4. form
+외부로 보낼 폼 양식
+- FEATURES
+    - Destination
+        - Send to data source
+        - Add to Mailchimp
+        - Add to Mailerlite
+        - Send to Zapier
+        - Send to Make
+        - Forward to your email
+
+        DB를 활용할 것이 아닌 경우 테스트로 'Forward to your email' 옵션 사용하는 것이 제일 편함
+        사용자가 입력한 폼 내용을 이메일로 전달받을 수 있음
+
+    - 폼 작성 요령
+        - Input Type
+            - Email, Text, Long text, Url, Dropdown, Phone number, File, Multiselect Dropdown, Hidden, Date, DateTime, Checkbox, Rating, Address
+        - Map to
+
+            값과 쌍으로 연결될 Key값으로 생각하면 됨
+        - Label
+
+            화면에 표시될 내용
+        - Placeholder
+
+            빈값일 때 input 공간에 표시될 내용
+        - Required
+
+            활성화 또는 비활성화
+
+            (값이 반드시 필요한 경우 활성화)
+
+        
+        Input type에 따라 유효성 검사 가능해보임
+#
 
 ### 작업목록
 2022-11-18: 제품 상세보기 페이지 만들기(item-detail)
-
+2022-11-23: 구매 페이지 만들기
 #
 
 ### 이슈
@@ -109,6 +143,14 @@ DB수정할 때마다 실시간 적용되긴 함
 2022-11-14: ITEM FIELDS에 Content값을 '사진'으로 변경하여 해결함
 
 (DB의 field값을 한글로 변경함으로써 Content값을 변경하지 않아서 발생한 오류임)
+
+2022-11-23: 주문서 페이지
+
+선택한 제품의 제품명을 자동으로 가져올 수 있는 방법을 찾지 못했음
+
+(custom code 기능 사용하여 코드를 추가하면 될 것 같아보임 개인적인 예상)
+
+
 
 #
 ### 결과물
