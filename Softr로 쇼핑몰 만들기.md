@@ -154,6 +154,10 @@ Text in Formatter by Zapier, Utilities in Formatter by Zapier 사용하였음
 
 주먹구구식 방법으로 하여 문자열 처리만 8단계가 나왔음
 
+2022-11-30
+
+key, value를 따로 분리하는 과정없이 Catch Hook이벤트 활용하여 원하는 필드에 값을 할당할 수 있었음
+
 
 #
 
@@ -174,6 +178,8 @@ Text in Formatter by Zapier, Utilities in Formatter by Zapier 사용하였음
 2022-11-25: 스프레드시트에 저장된 JSON 데이터 처리 해야함
 
 2022-11-29: 실제 스프레드시트에 값이 제대로 입력되지 않음, Zapier에서 테스트 했을 때는 제대로 입력되었음
+
+2022-11-30: Zapoer에서 데이터 변환하는 과정에서 문제가 있었던듯 싶다. 정확한 이유는 발견하지 못했음
 
 
 
